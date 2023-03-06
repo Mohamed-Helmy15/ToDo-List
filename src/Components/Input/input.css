@@ -1,0 +1,38 @@
+.wrapper {
+  display: flex;
+  gap: 10px;
+}
+.wrapper .list-container,
+.wrapper .input {
+  flex: 1;
+  color: white;
+}
+.wrapper .list-container {
+  padding: 20px;
+}
+.wrapper .input {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+section.input {
+  padding: 10px;
+  background-color: #ccc;
+  max-height: 178px;
+}
+section.input input,
+section.input button {
+  padding: 10px;
+  outline: none;
+  font-size: 18px;
+  background-color: rgb(60 149 255);
+  border: 2px solid transparent;
+  border-bottom-color: white;
+  color: white;
+}
+section.input input::placeholder {
+  color: white;
+}
+section.input button {
+  cursor: pointer;
+}

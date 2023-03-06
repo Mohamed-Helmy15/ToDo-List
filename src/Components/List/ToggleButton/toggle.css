@@ -1,0 +1,15 @@
+.todo .toggle {
+  font-size: 32px;
+  margin: 0 10px;
+  cursor: pointer;
+  border-radius: 7px;
+  color: green;
+  background: white;
+  width: 45px;
+  position: relative;
+  top: 0px;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -ms-border-radius: 7px;
+  -o-border-radius: 7px;
+}
